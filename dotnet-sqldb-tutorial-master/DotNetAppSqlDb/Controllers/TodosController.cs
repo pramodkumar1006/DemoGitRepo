@@ -14,7 +14,7 @@ namespace DotNetAppSqlDb.Controllers
     {
         private MyDatabaseContext db = new MyDatabaseContext();
 
-        // GET: Todos
+        // GET: Todos//
         public ActionResult Index()
         {            
             Trace.WriteLine("GET /Todos/Index");
